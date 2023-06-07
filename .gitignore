@@ -133,3 +133,4 @@ app.*.symbols
 !.vscode/settings.json
 
 app/android/.gradle
+android/.cxx

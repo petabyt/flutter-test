@@ -9,7 +9,7 @@ import 'package:ffi/ffi.dart';
 late final WifiappBindings bindings;
 
 void init() {
-	bindings = WifiappBindings(ffi.DynamicLibrary.open('libwifiapp.so'));
+	bindings = WifiappBindings(ffi.DynamicLibrary.open('libapp_backend.so'));
 }
 
 String test() {

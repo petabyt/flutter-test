@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'gallery.dart';
 import 'help.dart';
-import 'package:wifiapp/wifiapp.dart' as backend;
+
+import 'package:backend/wifiapp.dart' as backend;
 
 void main() {
   backend.init();
